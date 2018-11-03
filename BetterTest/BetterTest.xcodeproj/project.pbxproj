@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17A89EBD63979814773C406F /* Pods_BetterTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBCD7CECC4C4AAE11594A4A /* Pods_BetterTestTests.framework */; };
 		5DEF81F7218DF62800887F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF81F6218DF62800887F17 /* AppDelegate.swift */; };
 		5DEF81F9218DF62800887F17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF81F8218DF62800887F17 /* ViewController.swift */; };
 		5DEF81FC218DF62800887F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF81FA218DF62800887F17 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		5DEF8201218DF62A00887F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF81FF218DF62A00887F17 /* LaunchScreen.storyboard */; };
 		5DEF820C218DF62A00887F17 /* BetterTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF820B218DF62A00887F17 /* BetterTestTests.swift */; };
 		5DEF8217218DF62A00887F17 /* BetterTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF8216218DF62A00887F17 /* BetterTestUITests.swift */; };
+		C394CBD3274A85BBD726F1F8 /* Pods_BetterTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A921C725D95FE51558F35706 /* Pods_BetterTest.framework */; };
+		C5F716377AB35AF5E62E5DAD /* Pods_BetterTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28CE65AA5892C6181E8DAEA /* Pods_BetterTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C229E189F34A6E9BD678619 /* Pods-BetterTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetterTestTests/Pods-BetterTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		25B6D21F590D4380236928F2 /* Pods-BetterTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetterTest/Pods-BetterTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3BBCD7CECC4C4AAE11594A4A /* Pods_BetterTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEF81F3218DF62800887F17 /* BetterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEF81F6218DF62800887F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DEF81F8218DF62800887F17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		5DEF8212218DF62A00887F17 /* BetterTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEF8216218DF62A00887F17 /* BetterTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterTestUITests.swift; sourceTree = "<group>"; };
 		5DEF8218218DF62A00887F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86041E89554F1E6FA70F9B38 /* Pods-BetterTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetterTest/Pods-BetterTest.release.xcconfig"; sourceTree = "<group>"; };
+		882DB4804249FB3E5BBF4F31 /* Pods-BetterTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetterTestTests/Pods-BetterTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A921C725D95FE51558F35706 /* Pods_BetterTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC4DDE2534115597624EFD8 /* Pods-BetterTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetterTestUITests/Pods-BetterTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B28CE65AA5892C6181E8DAEA /* Pods_BetterTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF574834D5405BBE6A7ADCE /* Pods-BetterTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetterTestUITests/Pods-BetterTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C394CBD3274A85BBD726F1F8 /* Pods_BetterTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A89EBD63979814773C406F /* Pods_BetterTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F716377AB35AF5E62E5DAD /* Pods_BetterTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		235DEF49AA5938E5776DF291 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25B6D21F590D4380236928F2 /* Pods-BetterTest.debug.xcconfig */,
+				86041E89554F1E6FA70F9B38 /* Pods-BetterTest.release.xcconfig */,
+				882DB4804249FB3E5BBF4F31 /* Pods-BetterTestTests.debug.xcconfig */,
+				1C229E189F34A6E9BD678619 /* Pods-BetterTestTests.release.xcconfig */,
+				FFF574834D5405BBE6A7ADCE /* Pods-BetterTestUITests.debug.xcconfig */,
+				AAC4DDE2534115597624EFD8 /* Pods-BetterTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		23F67273982A3B780E7CAEDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A921C725D95FE51558F35706 /* Pods_BetterTest.framework */,
+				3BBCD7CECC4C4AAE11594A4A /* Pods_BetterTestTests.framework */,
+				B28CE65AA5892C6181E8DAEA /* Pods_BetterTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5DEF81EA218DF62800887F17 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				5DEF820A218DF62A00887F17 /* BetterTestTests */,
 				5DEF8215218DF62A00887F17 /* BetterTestUITests */,
 				5DEF81F4218DF62800887F17 /* Products */,
+				235DEF49AA5938E5776DF291 /* Pods */,
+				23F67273982A3B780E7CAEDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DEF821B218DF62A00887F17 /* Build configuration list for PBXNativeTarget "BetterTest" */;
 			buildPhases = (
+				4DEF6B2E8CF537998ABD059B /* [CP] Check Pods Manifest.lock */,
 				5DEF81EF218DF62800887F17 /* Sources */,
 				5DEF81F0218DF62800887F17 /* Frameworks */,
 				5DEF81F1218DF62800887F17 /* Resources */,
+				6608E3A2626ABC58E8903472 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DEF821E218DF62A00887F17 /* Build configuration list for PBXNativeTarget "BetterTestTests" */;
 			buildPhases = (
+				F7016555330757FB28CED0B6 /* [CP] Check Pods Manifest.lock */,
 				5DEF8203218DF62A00887F17 /* Sources */,
 				5DEF8204218DF62A00887F17 /* Frameworks */,
 				5DEF8205218DF62A00887F17 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DEF8221218DF62A00887F17 /* Build configuration list for PBXNativeTarget "BetterTestUITests" */;
 			buildPhases = (
+				635B4B4AB02B6A86DD1CC964 /* [CP] Check Pods Manifest.lock */,
 				5DEF820E218DF62A00887F17 /* Sources */,
 				5DEF820F218DF62A00887F17 /* Frameworks */,
 				5DEF8210218DF62A00887F17 /* Resources */,
@@ -250,6 +294,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DEF6B2E8CF537998ABD059B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetterTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		635B4B4AB02B6A86DD1CC964 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetterTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6608E3A2626ABC58E8903472 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BetterTest/Pods-BetterTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BetterTest/Pods-BetterTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7016555330757FB28CED0B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetterTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5DEF81EF218DF62800887F17 /* Sources */ = {
@@ -430,15 +549,13 @@
 		};
 		5DEF821C218DF62A00887F17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B6D21F590D4380236928F2 /* Pods-BetterTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BetterTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.BetterTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -448,15 +565,13 @@
 		};
 		5DEF821D218DF62A00887F17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86041E89554F1E6FA70F9B38 /* Pods-BetterTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BetterTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.BetterTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -466,17 +581,14 @@
 		};
 		5DEF821F218DF62A00887F17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882DB4804249FB3E5BBF4F31 /* Pods-BetterTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCRTE5CC2K;
 				INFOPLIST_FILE = BetterTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.BetterTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -487,17 +599,14 @@
 		};
 		5DEF8220218DF62A00887F17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C229E189F34A6E9BD678619 /* Pods-BetterTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCRTE5CC2K;
 				INFOPLIST_FILE = BetterTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.BetterTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -508,16 +617,13 @@
 		};
 		5DEF8222218DF62A00887F17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF574834D5405BBE6A7ADCE /* Pods-BetterTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCRTE5CC2K;
 				INFOPLIST_FILE = BetterTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.BetterTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -528,16 +634,13 @@
 		};
 		5DEF8223218DF62A00887F17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC4DDE2534115597624EFD8 /* Pods-BetterTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCRTE5CC2K;
 				INFOPLIST_FILE = BetterTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.BetterTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
