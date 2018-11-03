@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		17A89EBD63979814773C406F /* Pods_BetterTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBCD7CECC4C4AAE11594A4A /* Pods_BetterTestTests.framework */; };
+		343E136F218E0D31001C6C5E /* NewsStoriesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343E136E218E0D31001C6C5E /* NewsStoriesHandler.swift */; };
+		343E1373218E11D3001C6C5E /* trump1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 343E1370218E11D3001C6C5E /* trump1.jpeg */; };
+		343E1374218E11D3001C6C5E /* trump2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 343E1371218E11D3001C6C5E /* trump2.jpg */; };
+		343E1375218E11D3001C6C5E /* obama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 343E1372218E11D3001C6C5E /* obama.jpg */; };
+		343E1377218E18EF001C6C5E /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343E1376218E18EF001C6C5E /* EventTableViewCell.swift */; };
+		343E1379218E21C3001C6C5E /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343E1378218E21C3001C6C5E /* EventViewController.swift */; };
 		3463141E218DFF3C00FB16CA /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3463141D218DFF3C00FB16CA /* FlowLayout.swift */; };
 		34631421218E002E00FB16CA /* NewsItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34631420218E002E00FB16CA /* NewsItemCollectionViewCell.swift */; };
 		5DEF81F7218DF62800887F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF81F6218DF62800887F17 /* AppDelegate.swift */; };
@@ -41,6 +47,12 @@
 /* Begin PBXFileReference section */
 		1C229E189F34A6E9BD678619 /* Pods-BetterTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetterTestTests/Pods-BetterTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		25B6D21F590D4380236928F2 /* Pods-BetterTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetterTest/Pods-BetterTest.debug.xcconfig"; sourceTree = "<group>"; };
+		343E136E218E0D31001C6C5E /* NewsStoriesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStoriesHandler.swift; sourceTree = "<group>"; };
+		343E1370218E11D3001C6C5E /* trump1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trump1.jpeg; sourceTree = "<group>"; };
+		343E1371218E11D3001C6C5E /* trump2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trump2.jpg; sourceTree = "<group>"; };
+		343E1372218E11D3001C6C5E /* obama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = obama.jpg; sourceTree = "<group>"; };
+		343E1376218E18EF001C6C5E /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		343E1378218E21C3001C6C5E /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		3463141D218DFF3C00FB16CA /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 		34631420218E002E00FB16CA /* NewsItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		3BBCD7CECC4C4AAE11594A4A /* Pods_BetterTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +153,9 @@
 		5DEF81F5218DF62800887F17 /* BetterTest */ = {
 			isa = PBXGroup;
 			children = (
+				343E1372218E11D3001C6C5E /* obama.jpg */,
+				343E1370218E11D3001C6C5E /* trump1.jpeg */,
+				343E1371218E11D3001C6C5E /* trump2.jpg */,
 				5DEF81F6218DF62800887F17 /* AppDelegate.swift */,
 				5DEF81F8218DF62800887F17 /* ViewController.swift */,
 				5DEF81FA218DF62800887F17 /* Main.storyboard */,
@@ -149,6 +164,9 @@
 				5DEF8202218DF62A00887F17 /* Info.plist */,
 				3463141D218DFF3C00FB16CA /* FlowLayout.swift */,
 				34631420218E002E00FB16CA /* NewsItemCollectionViewCell.swift */,
+				343E136E218E0D31001C6C5E /* NewsStoriesHandler.swift */,
+				343E1376218E18EF001C6C5E /* EventTableViewCell.swift */,
+				343E1378218E21C3001C6C5E /* EventViewController.swift */,
 			);
 			path = BetterTest;
 			sourceTree = "<group>";
@@ -279,8 +297,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343E1374218E11D3001C6C5E /* trump2.jpg in Resources */,
+				343E1373218E11D3001C6C5E /* trump1.jpeg in Resources */,
 				5DEF8201218DF62A00887F17 /* LaunchScreen.storyboard in Resources */,
 				5DEF81FE218DF62A00887F17 /* Assets.xcassets in Resources */,
+				343E1375218E11D3001C6C5E /* obama.jpg in Resources */,
 				5DEF81FC218DF62800887F17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,8 +402,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343E1377218E18EF001C6C5E /* EventTableViewCell.swift in Sources */,
 				34631421218E002E00FB16CA /* NewsItemCollectionViewCell.swift in Sources */,
+				343E1379218E21C3001C6C5E /* EventViewController.swift in Sources */,
 				5DEF81F9218DF62800887F17 /* ViewController.swift in Sources */,
+				343E136F218E0D31001C6C5E /* NewsStoriesHandler.swift in Sources */,
 				3463141E218DFF3C00FB16CA /* FlowLayout.swift in Sources */,
 				5DEF81F7218DF62800887F17 /* AppDelegate.swift in Sources */,
 			);
